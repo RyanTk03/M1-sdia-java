@@ -25,6 +25,8 @@ products.add(new Product(2, "Phone", 800));
 
 Search by name is done using a loop and string comparison.
 
+![lists](../assets/screenshots/tp2-lists.png)
+
 ### Exercise 2 - Maps (Student Grades)
 
 #### Problem
@@ -49,6 +51,8 @@ grades.put("Sara", 18.0);
 
 Statistics are computed using loops over `values()`.
 
+![maps](../assets/screenshots/tp2-maps.png)
+
 ### Exercise 3 - Sets (Groups)
 
 #### Problem
@@ -67,6 +71,8 @@ groupB.add("Ali");
 ```
 
 Intersection is obtained with `retainAll`, and union with `addAll`.
+
+![sets](../assets/screenshots/tp2-sets.png)
 
 ## Part 2 - Generics
 
@@ -113,6 +119,8 @@ public T getElement(int index) {
 }
 ```
 
+![Generic storage](../assets/screenshots/tp2-generic-storage.png)
+
 ### Exercise 2 - Product Management
 
 #### Problem
@@ -143,3 +151,6 @@ public class Product {
     private int stock;
 }
 ```
+
+![generic product](../assets/screenshots/tp2-generic-product-1.png)
+![generic product](../assets/screenshots/tp2-generic-product-2.png)
